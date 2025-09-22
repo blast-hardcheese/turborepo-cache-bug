@@ -2,6 +2,7 @@
   "name": "turborepo-bug",
   "packageManager": "yarn@4.6.0",
   "scripts": {
+    "watch-for-bug": "node src/watch.js dist",
     "build": "node src/a.js > build/a.out",
     "copy-if-changed": "cd build; rsync -am --delete --inplace --checksum --no-times --no-perms --no-owner --no-group . ../dist"
   }
