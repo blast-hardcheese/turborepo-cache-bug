@@ -12,3 +12,6 @@
 #!.yarn/cache
 .pnp.*
 build/
+
+# Turborepo
+.turbo
